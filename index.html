@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>week 6 Assignment</title>
+</head>
+<body>
+  <h1>My Interactive Web Page</h1>
+
+  <!-- Interactive Section 1: Toggle Text -->
+  <section>
+    <h2>Toggle Text Example</h2>
+    <button id="toggleTextBtn">Show Text</button>
+    <p id="toggleText" style="display:none;">This text can be toggled on and off!</p>
+  </section>
+
+  <!-- Interactive Section 2: Live Counter -->
+  <section>
+    <h2>Click Counter</h2>
+    <button id="counterBtn">Click me</button>
+    <p>You've clicked <span id="counterValue">0</span> times!</p>
+  </section>
+
+  <!-- Form Section -->
+  <section>
+    <h2>Registration Form</h2>
+    <form id="myForm">
+      <input type="text" id="name" placeholder="Full Name">
+      <span id="nameError" class="error"></span>
+
+      <input type="email" id="email" placeholder="Email">
+      <span id="emailError" class="error"></span>
+
+      <input type="password" id="password" placeholder="Password">
+      <span id="passwordError" class="error"></span>
+
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
